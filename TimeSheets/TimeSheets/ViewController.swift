@@ -18,8 +18,16 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    
     }
-
-
 }
+
+/*
+    Swift言語を使用したアプリを作成する
+    ・勤務状態参照画面
+    ・勤務状態削除(日別)
+    ・勤務状態追加(日ごと)
+    ・通知設定(月中、月末)
+    ・パスワード設定、認証、変更
+*/
 
