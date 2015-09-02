@@ -15,6 +15,8 @@
 		32498D451B972AEA00D2C88B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32498D431B972AEA00D2C88B /* LaunchScreen.storyboard */; };
 		32498D501B972AEA00D2C88B /* TimeSheetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32498D4F1B972AEA00D2C88B /* TimeSheetsTests.swift */; };
 		32498D5B1B972AEA00D2C88B /* TimeSheetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32498D5A1B972AEA00D2C88B /* TimeSheetsUITests.swift */; };
+		32498D691B972C6600D2C88B /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32498D681B972C6600D2C88B /* TopViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		32498D6B1B972F5500D2C88B /* InputTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32498D6A1B972F5500D2C88B /* InputTimeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		32498D561B972AEA00D2C88B /* TimeSheetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeSheetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32498D5A1B972AEA00D2C88B /* TimeSheetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSheetsUITests.swift; sourceTree = "<group>"; };
 		32498D5C1B972AEA00D2C88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32498D681B972C6600D2C88B /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		32498D6A1B972F5500D2C88B /* InputTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputTimeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				32498D371B972AEA00D2C88B /* AppDelegate.swift */,
 				32498D391B972AEA00D2C88B /* ViewController.swift */,
+				32498D681B972C6600D2C88B /* TopViewController.swift */,
+				32498D6A1B972F5500D2C88B /* InputTimeViewController.swift */,
 				32498D3B1B972AEA00D2C88B /* Main.storyboard */,
 				32498D411B972AEA00D2C88B /* Assets.xcassets */,
 				32498D431B972AEA00D2C88B /* LaunchScreen.storyboard */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32498D691B972C6600D2C88B /* TopViewController.swift in Sources */,
 				32498D401B972AEA00D2C88B /* TimeSheets.xcdatamodeld in Sources */,
 				32498D3A1B972AEA00D2C88B /* ViewController.swift in Sources */,
 				32498D381B972AEA00D2C88B /* AppDelegate.swift in Sources */,
+				32498D6B1B972F5500D2C88B /* InputTimeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +409,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TimeSheets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = binsent.TimeSheets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TimeSheets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = binsent.TimeSheets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
